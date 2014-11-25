@@ -28,7 +28,11 @@ $(function () {
 });
 
 function resizeElement() {
-    $(".pageContent").css({ height: (jQuery(window).height() - 278) });
+    var height = $(".pageContent").height();
+    $(".pageContent").css({ 
+        height: (jQuery(window).height() - 528), 
+        'min-height': height 
+    });
     //alignBottomMenu();
     //alignVision_missionUl();
 }

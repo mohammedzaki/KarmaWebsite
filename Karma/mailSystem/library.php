@@ -6,8 +6,8 @@ define("SMTP_UNAME", "test@eye-egypt.com"); //Username for SMTP authentication a
 define("SMTP_PWORD", "testtest"); //Password for SMTP authentication
 define("_UNAME", "Mohammed Zaki"); //Password for SMTP authentication
 define("_UMAILMZ", "mohammedzaki.dev@gmail.com");
-define("_UMAIL1", "info@helprh.com");
-define("_UMAIL2", "mkt@helprh.com");
+define("_UMAIL1", "info@happy-co.net");
+define("_UMAIL2", "sestafan@happy-co.net");
 define("_UMAIL3", "aragab@re-view.me");
 
 ?>

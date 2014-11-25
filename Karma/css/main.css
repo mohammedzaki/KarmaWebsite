@@ -173,6 +173,7 @@ body {
     overflow-x: hidden;
     font-family: karma-font;
     font-weight: 100;
+    overflow-y: scroll;
 }
 
 header {
@@ -248,7 +249,7 @@ header {
             width: 466px;
             float: right;
             position: relative;
-            left: 3px;
+            left: 2px;
             -webkit-border-radius: 160px 36px 0px 0px;
             -moz-border-radius: 160px 36px 0px 0px;
             border-radius: 160px 36px 0px 0px;
@@ -278,7 +279,7 @@ header {
         height: 286px;
         top: -25px;
         position: relative;
-        width: 976px;
+        width: 975px;
         background-color: #FFFFFF;
         overflow: hidden;
     }
@@ -672,7 +673,7 @@ footer {
 
 .contactUsPage {
     text-align: justify;
-    height: 510px;
+    height: 445px;
 }
 
     .contactUsPage .upperContent {
@@ -752,12 +753,13 @@ footer {
     }
 
         .contactUsPage .Col1 ul li {
-            margin: 0px 0px 15px 0px;
+            margin: 0px 0px 12px 0px;
         }
 
             .contactUsPage .Col1 ul li .emp_name {
                 font-weight: 300;
-                margin: 0px 0px 6px 0px;
+                font-size: 13px;
+                margin: 0px 0px 0px 0px;
             }
 
             .contactUsPage .Col1 ul li .emp_title {
@@ -772,8 +774,8 @@ footer {
                 }
 
                     .contactUsPage .Col1 ul li .emp_desc ul li {
-                        margin: 2px 0px 2px 0px;
-                        font-size: 16px;
+                        margin: 0px 0px 0px 0px;
+                        font-size: 15px;
                     }
 
     .contactUsPage .Col3 #map-canvas {
@@ -845,6 +847,7 @@ footer {
 
 .products1Page {
     text-align: justify;
+    height: 600px;
 }
 
     .products1Page .upperContent {
@@ -904,14 +907,15 @@ footer {
                 -moz-border-radius: 10px;
                 border-radius: 10px;
                 position: relative;
-                top: 35px;
+                top: 33px;
             }
 
         .products1Page .upperContent .txt_UpperContent {
+    margin-bottom: 30px;
         }
 
     .products1Page .products1Ul {
-        margin: 30px 0px 0px 0px;
+        margin: 5px 0px 0px 0px;
     }
 
         .products1Page .products1Ul li {
@@ -938,7 +942,11 @@ footer {
 
                 .products1Page .products1Ul li .praghL .praghImg {
                     float: left;
-                }
+                
+                    top: 20px;  
+                    left: 35px;
+                    position: relative;
+}
 
                     .products1Page .products1Ul li .praghL .praghImg > img {
                     }
@@ -1002,7 +1010,9 @@ footer {
                         text-align: left;
                         width: 250px;
                         height: 165px;
-                    }
+                    
+                        font-size: 18px;
+}
 
 
             .products1Page .products1Ul li .praghR {
@@ -1017,7 +1027,11 @@ footer {
 
                 .products1Page .products1Ul li .praghR .praghImg {
                     float: right;
-                }
+                
+                    top: 20px;
+                    right: 35px;
+                    position: relative;
+}
 
                     .products1Page .products1Ul li .praghR .praghImg > img {
                     }
@@ -1082,25 +1096,50 @@ footer {
                         text-align: left;
                         width: 250px;
                         height: 165px;
-                    }
+                    
+                        font-size: 18px;
+}
 
 /*colors*/
-.mouve {
-    background-color: #A97EA9;
+.pickles01_color {
+    background-color: #006532;
 }
-
-.yellow {
-    background-color: #F9D401;
+.pickles02_color {
+    background-color: #46413A;
 }
-
-.nave {
-    background-color: #941952;
+.pickles03_color {
+    background-color: #EBDDBB;
 }
-
-.black {
-    background-color: #524B41;
+.pickles03_color > div {
+    color: black !important;
 }
-
+.pickles04_color {
+    background-color: #ACB817;
+}
+.pickles05_color {
+    background-color: #962054;
+}
+.pickles06_color {
+    background-color: #E2BD00;
+}
+.pickles07_color {
+    background-color: #D4648C;
+}
+.pickles08_color {
+    background-color: #18442F;
+}
+.pickles09_color {
+    background-color: #D9D6B1;
+}
+.pickles10_color {
+    background-color: #E3BD00;
+}
+.pickles11_color {
+    background-color: #9E739B;
+}
+.pickles12_color {
+    background-color: #C51B19;
+}
 
 .products2Page {
     text-align: justify;
@@ -1120,8 +1159,8 @@ footer {
             .products2Page .upperContent .header .img_header {
                 /* height: 50px; */
                 position: absolute;
-                top: 10px;
-                left: 852px;
+                top: 33px;
+                left: 841px;
             }
 
 
@@ -1158,13 +1197,13 @@ footer {
                 background-color: #888888;
                 height: 2px;
                 float: right;
-                left: -113px;
-                width: 676px;
+                left: -137px;
+                width: 652px;
                 -webkit-border-radius: 10px;
                 -moz-border-radius: 10px;
                 border-radius: 10px;
                 position: relative;
-                top: 35px;
+                top: 32px;
             }
 
         .products2Page .upperContent .txt_UpperContent {
@@ -1207,9 +1246,9 @@ footer {
                     position: relative;
                     height: 56px;
                     width: 177px;
-                    -webkit-border-radius: 20px 20px 0px 0px;
-                    -moz-border-radius: 20px 20px 0px 0px;
-                    border-radius: 20px 20px 0px 0px;
+                    -webkit-border-radius: 10px 10px 0px 0px;
+                    -moz-border-radius: 10px 10px 0px 0px;
+                    border-radius: 10px 10px 0px 0px;
                     top: -3px;
                 }
 
@@ -1286,9 +1325,9 @@ footer {
                     position: relative;
                     height: 56px;
                     width: 177px;
-                    -webkit-border-radius: 20px 20px 0px 0px;
-                    -moz-border-radius: 20px 20px 0px 0px;
-                    border-radius: 20px 20px 0px 0px;
+                    -webkit-border-radius: 10px 10px 0px 0px;
+                    -moz-border-radius: 10px 10px 0px 0px;
+                    border-radius: 10px 10px 0px 0px;
                     top: -3px;
                     left: 136px;
                 }
