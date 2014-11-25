@@ -280,7 +280,7 @@ header {
         background-color: #FFFFFF;
         overflow: hidden;
     }
-    
+
         header .banner > #img4 {
             position: absolute;
             left: 628px;
@@ -291,6 +291,18 @@ header {
             position: absolute;
             left: 660px;
             bottom: -11px;
+        }
+
+        header .banner > #img12 {
+            position: absolute;
+            left: 303px;
+            bottom: -21px;
+        }
+
+        header .banner > #img13 {
+            position: absolute;
+            left: 80px;
+            bottom: 94px;
         }
 
         header .banner > #img_logo_white {
@@ -307,13 +319,17 @@ header {
 
             header .banner > div .txt_big {
                 font-family: karma-font;
-                font-weight: 500;
+                font-weight: lighter;
                 color: #EBEBEB;
                 font-size: 25pt;
                 position: absolute;
                 top: 66px;
                 left: 599px;
             }
+
+                header .banner > div .txt_big > div {
+                    font-weight: 500;
+                }
 
                 header .banner > div .txt_big > span {
                     font-weight: 500;
@@ -322,12 +338,16 @@ header {
 
             header .banner > div .txt_small {
                 font-family: karma-font;
-                font-weight: 500;
+                font-weight: lighter;
                 font-size: 14pt;
                 position: absolute;
                 top: 80px;
                 left: 610px;
             }
+
+                header .banner > div .txt_small > div {
+                    font-weight: 500;
+                }
 
                 header .banner > div .txt_small > span {
                     font-weight: 500;
@@ -396,7 +416,7 @@ footer {
     overflow: hidden;
     background: #FCFCFC;
     z-index: 1;
-    min-height: 530px;
+    min-height: 560px;
 }
 
 
@@ -584,4 +604,180 @@ footer {
             }
 
         .home_Page .upperContent .txt_UpperContent {
+        }
+
+
+.contactUsPage {
+    text-align: justify;
+    color: #8E8E8E;
+}
+
+    .contactUsPage .upperContent {
+        font-size: 14pt;
+        margin-top: 35px;
+    }
+
+        .contactUsPage .upperContent .header {
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+            .contactUsPage .upperContent .header .txt_header {
+                position: relative;
+            }
+
+                .contactUsPage .upperContent .header .txt_header .txt_big {
+                    font-size: 32pt;
+                    position: absolute;
+                    color: #EBEBEB;
+                    top: -1px;
+                }
+
+                    .contactUsPage .upperContent .header .txt_header .txt_big > span {
+                        font-size: 30pt;
+                        font-weight: 500;
+                    }
+
+                .contactUsPage .upperContent .header .txt_header .txt_small {
+                    font-size: 15pt;
+                    font-weight: lighter;
+                    color: #797979;
+                    position: absolute;
+                    top: 18px;
+                    left: 18px;
+                }
+
+                    .contactUsPage .upperContent .header .txt_header .txt_small > span {
+                        font-weight: 500;
+                    }
+
+            .contactUsPage .upperContent .header .line_header {
+                background-color: #888888;
+                height: 2px;
+                float: right;
+                width: 835px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                position: relative;
+                top: 35px;
+            }
+
+        .contactUsPage .upperContent .Sub_UpperContent {
+        }
+
+    .contactUsPage .contactUsUl {
+        margin: 0px 0px 0px 0px;
+    }
+
+        .contactUsPage .contactUsUl li {
+            display: inline-block;
+            vertical-align: bottom;
+            font-size: 14pt;
+            /* margin-right: 13px; */
+            width: 288px;
+        }
+
+            .contactUsPage .contactUsUl li:last-child {
+                margin: 0px 0px 0px 0px;
+            }
+
+
+    .contactUsPage .Col1 ul {
+        direction: ltr;
+        margin-left: 15px;
+        margin-right: 11px;
+    }
+
+        .contactUsPage .Col1 ul li {
+            margin: 0px 0px 15px 0px;
+        }
+
+            .contactUsPage .Col1 ul li .emp_name {
+                font-weight: 500;
+                margin: 0px 0px 6px 0px;
+            }
+
+            .contactUsPage .Col1 ul li .emp_title {
+                margin: 2px 0px 10px 0px;
+            }
+
+            .contactUsPage .Col1 ul li .emp_desc {
+            }
+
+                .contactUsPage .Col1 ul li .emp_desc ul {
+                    margin-left: 0px;
+                }
+
+                    .contactUsPage .Col1 ul li .emp_desc ul li {
+                        margin: 2px 0px 2px 0px;
+                        color: #575958;
+                        font-size: 12.5pt;
+                    }
+
+    .contactUsPage .Col3 #map-canvas {
+        height: 280px;
+    
+        width: 380px;
+        border: solid #ACB0AF 1px;  
+        -webkit-border-radius: 13px;  
+        -moz-border-radius: 13px;  
+        border-radius: 13px;
+}
+
+    .contactUsPage .Col2 {
+    width: 227px;
+    margin-left: 30px;
+}
+
+        .contactUsPage .Col2 table {
+            /* margin-left: 6%; */
+        }
+
+            .contactUsPage .Col2 table tr {
+                display: block;
+                text-align: right;
+                font-size: 14px;
+                color: #90B63D;
+                margin-bottom: 5px;
+            }
+
+                .contactUsPage .Col2 table tr td {
+                    /* width: 70px; */
+                    /* padding-right: 10px; */
+                    /* vertical-align: top; */
+                }
+
+                    .contactUsPage .Col2 table tr td:first-child {
+                        /* padding-top: 9px; */
+                    }
+
+        .contactUsPage .Col2 input, textarea {
+            width: 215px;
+            height: 28px;
+            left: 27px;
+            font-size: 14px;
+            padding-left: 7px;
+            background-color: #EBEBEB;
+            color: #90B63D;
+            border: solid #90B63D 1px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+        }
+
+        .contactUsPage .Col2 .btn_ContactUsPageSubmit {
+        }
+
+        .contactUsPage .Col2 textarea.last {
+            width: 215px;
+            height: 120px;
+            resize: none;
+            padding-top: 7px;
+        }
+
+        .contactUsPage .Col2 #btn_ContactUsSubmit {
+            width: 80px;
+            float: right;
+            margin-bottom: 1%;
         }
