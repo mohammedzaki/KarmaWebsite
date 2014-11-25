@@ -1,0 +1,535 @@
+@font-face {
+    font-family: karma-font;
+    src: url(../fonts/woff/neotech_light.woff);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: karma-font;
+    src: url(../fonts/woff/neotech_light_italic.woff);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: karma-font;
+    src: url(../fonts/woff/neotech.woff);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: karma-font;
+    src: url(../fonts/woff/neotech_italic.woff);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: karma-font;
+    src: url(../fonts/woff/neotech_medium.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: karma-font;
+    src: url(../fonts/woff/neotech_medium_italic.woff);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: karma-font;
+    src: url(../fonts/woff/neotech_bold.woff);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: karma-font;
+    src: url(../fonts/woff/neotech_bold_italic.woff);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: karma-font;
+    src: url(../fonts/woff/neotech_black.woff);
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: karma-font;
+    src: url(../fonts/woff/neotech_black_italic.woff);
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.verticalAlign {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.visible {
+    display: block;
+}
+
+.invisible {
+    display: none;
+}
+
+.mainMargin {
+    width: 975px;
+    margin: auto;
+    z-index: 5;
+    position: relative;
+}
+
+.right {
+    float: right;
+    margin-right: 30px;
+}
+
+.left {
+    float: left;
+    margin-left: 30px;
+}
+
+#L_transparent {
+    float: left;
+    left: 0px;
+    top: 0px;
+    height: 100%; /* or whatever you want */
+    width: 100%; /* or whatever you want */
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    /* opacity: 0.5;*/
+    display: none;
+    z-index: 99999999;
+}
+
+#L_content {
+    color: #2187e7;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+    z-index: 99999999;
+}
+
+#L_modebox {
+    position: fixed;
+    top: 200px;
+    right: 0;
+    bottom: 5;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 999999999;
+    /*opacity:0;*/
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+    #L_modebox:target {
+        /*opacity:1;*/
+        pointer-events: auto;
+    }
+
+    #L_modebox > div {
+        width: 300px;
+        position: relative;
+        margin: 0 auto;
+        padding: 5px 5px 5px 5px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 35px #FFF;
+        opacity: 1;
+        background: #fff;
+        z-index: 9999999;
+    }
+
+.btn_style {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    background: #006CB9;
+    color: #FFFFFF;
+    padding: 6px 10px 6px 10px;
+    min-width: 80px;
+    border: solid 0px white;
+    cursor: pointer;
+}
+
+body {
+    min-width: 1200px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: karma-font;
+    font-weight: lighter;
+}
+
+header {
+    height: 485px;
+}
+
+    header .upperPhoto {
+        width: 100%;
+        height: 28px;
+    }
+
+        header .upperPhoto > div {
+            background-color: #90B63D;
+            height: 56px;
+            width: 268px;
+            float: right;
+            -webkit-border-radius: 36px 0px 15px 160px;
+            -moz-border-radius: 36px 0px 15px 160px;
+            border-radius: 36px 0px 15px 160px;
+            position: relative;
+            bottom: 28px;
+        }
+
+    header .companyLogo {
+        height: 96px;
+    }
+
+        header .companyLogo .right {
+            float: right;
+        }
+
+            header .companyLogo .right .txt_big {
+                font-family: karma-font;
+                font-weight: lighter;
+                color: #EBEBEB;
+                font-size: 29pt;
+                position: absolute;
+                top: 58px;
+                left: 607px;
+            }
+
+                header .companyLogo .right .txt_big > span {
+                    font-weight: 500;
+                    font-size: 40px;
+                }
+
+            header .companyLogo .right .txt_small {
+                font-family: karma-font;
+                font-weight: lighter;
+                font-size: 11pt;
+                position: absolute;
+                top: 78px;
+                left: 627px;
+            }
+
+                header .companyLogo .right .txt_small > span {
+                    font-weight: 500;
+                    font-size: 15px;
+                }
+
+        header .companyLogo .left {
+            float: left;
+        }
+
+    header .header {
+        height: 28px;
+    }
+
+        header .header > div {
+            background-color: #90B63D;
+            height: 56px;
+            width: 420px;
+            float: right;
+            -webkit-border-radius: 160px 36px 0px 0px;
+            -moz-border-radius: 160px 36px 0px 0px;
+            border-radius: 160px 36px 0px 0px;
+        }
+
+            header .header > div > nav {
+                float: left;
+                top: 8px;
+                color: #FFFFFF;
+                left: 29px;
+                font-size: 14pt;
+                position: relative;
+            }
+
+                header .header > div > nav a {
+                    text-decoration: none;
+                    margin: 0px 10px 0px 10px;
+                    color: #FFFFFF;
+                }
+
+    header .banner {
+        border: solid #ACB0AF 1px;
+        -webkit-border-radius: 15px 15px 15px 15px;
+        -moz-border-radius: 15px 15px 15px 15px;
+        border-radius: 15px 15px 15px 15px;
+        z-index: 1;
+        height: 295px;
+        top: -25px;
+        position: relative;
+        width: 976px;
+        background-color: #FFFFFF;
+        overflow: hidden;
+    }
+
+        header .banner > img {
+            position: absolute;
+            left: 625px;
+            bottom: -28px;
+        }
+
+        header .banner > div {
+            position: relative;
+            right: 480px;
+            top: 61px;
+        }
+
+            header .banner > div .txt_big {
+                font-family: karma-font;
+                font-weight: lighter;
+                color: #EBEBEB;
+                font-size: 29pt;
+                position: absolute;
+                top: 66px;
+                left: 599px;
+            }
+
+                header .banner > div .txt_big > span {
+                    font-weight: 500;
+                    font-size: 40px;
+                }
+
+            header .banner > div .txt_small {
+                font-family: karma-font;
+                font-weight: lighter;
+                font-size: 11pt;
+                position: absolute;
+                top: 86px;
+                left: 620px;
+            }
+
+                header .banner > div .txt_small > span {
+                    font-weight: 500;
+                    font-size: 15px;
+                }
+
+
+    header .footer {
+        width: 100%;
+        height: 28px;
+        position: relative;
+        top: -22px;
+    }
+
+        header .footer > div {
+            background-color: #90B63D;
+            height: 56px;
+            width: 420px;
+            float: left;
+            -webkit-border-radius: 36px 0px 15px 160px;
+            -moz-border-radius: 36px 0px 15px 160px;
+            border-radius: 0px 9px 160px 36px;
+            position: absolute;
+            bottom: 0px;
+        }
+
+            header .footer > div .txt_welcome {
+                position: absolute;
+                top: 30px;
+                left: 16px;
+                color: #FFFFFF;
+                font-family: inherit;
+                font-size: 14pt;
+                font-weight: 500;
+            }
+
+                header .footer > div .txt_welcome > span {
+                    font-family: inherit;
+                    font-weight: 100;
+                    font-size: 15pt;
+                }
+
+footer {
+    background-color: #90B63D;
+    height: 50px;
+    -webkit-border-radius: 9px 9px 0px 0px;
+    -moz-border-radius: 9px 9px 0px 0px;
+    border-radius: 9px 9px 0px 0px;
+    color: #FFFFFF;
+    font-size: 12pt;
+}
+
+    footer > div {
+        height: 16px;
+    }
+
+        footer > div .left > nav a {
+            color: #FFFFFF;
+            margin: 0px 10px 0px 10px;
+        }
+
+        footer > div .right {
+        }
+
+.pageContent {
+    overflow: hidden;
+    background: #FCFCFC;
+    z-index: 1;
+    min-height: 530px;
+}
+
+
+.vision_missionPage {
+    text-align: justify;
+    color: #8E8E8E;
+}
+    /*<div class="upperContent">
+                <div class="header">
+                    <div class="txt_header">
+                        <div class="txt_big">
+                            Our <span>Company</span>
+                        </div>
+                        <div class="txt_small">
+                            Our <span>Company</span>
+                        </div>
+                    </div>
+                    <div class="line_header">
+                    </div>
+                </div>
+                <div class="txt_UpperContent">*/
+    .vision_missionPage .upperContent {
+        font-size: 14pt;
+    
+        margin-top: 35px;
+}
+
+        .vision_missionPage .upperContent .header {
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+            .vision_missionPage .upperContent .header .txt_header {
+                position: relative;
+            }
+
+                .vision_missionPage .upperContent .header .txt_header .txt_big {
+                    font-size: 32pt;
+                    position: absolute;
+                    color: #EBEBEB;
+                    top: -1px;
+                }
+
+                    .vision_missionPage .upperContent .header .txt_header .txt_big > span {
+                        font-size: 30pt;
+                        font-weight: 500;
+                    }
+
+                .vision_missionPage .upperContent .header .txt_header .txt_small {
+                    font-size: 15pt;
+                    font-weight: lighter;
+                    color: #797979;
+                    position: absolute;
+                    top: 18px;
+                    left: 18px;
+                }
+
+                    .vision_missionPage .upperContent .header .txt_header .txt_small > span {
+                        font-weight: 500;
+                    }
+
+            .vision_missionPage .upperContent .header .line_header {
+                background-color: #888888;
+                height: 2px;
+                float: right;
+                width: 835px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                position: relative;
+                top: 35px;
+            }
+
+        .vision_missionPage .upperContent .txt_UpperContent {
+        }
+
+    .vision_missionPage .vision_missionUl {
+        margin: 40px 0px 0px 0px;
+    
+}
+
+        .vision_missionPage .vision_missionUl li {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 14pt;
+            margin-right: 13px;
+        }
+
+            .vision_missionPage .vision_missionUl li:last-child {
+                margin: 0px 0px 0px 0px;
+            }
+
+            .vision_missionPage .vision_missionUl li .pragh {
+            }
+
+                .vision_missionPage .vision_missionUl li .pragh .pragh_header {
+    position: relative;
+                background-color: #90B63D;  height: 56px;  
+    width: 220px;    
+    -webkit-border-radius: 6px 50px 0px 0px;  
+    -moz-border-radius: 6px 50px 0px 0px;  
+    border-radius: 6px 50px 0px 0px;
+    top: 0px;
+}
+
+                    .vision_missionPage .vision_missionUl li .pragh .pragh_header .txt_pragh_header {
+    height: 32px;
+                    
+    position: relative;
+}
+
+                        .vision_missionPage .vision_missionUl li .pragh .pragh_header .txt_pragh_header .txt_big {
+    position: absolute;
+                        
+    color: rgba(255, 255, 255, 0.26);
+    font-size: 20pt;
+    top: 5px;
+    left: 5px;
+}
+
+                            .vision_missionPage .vision_missionUl li .pragh .pragh_header .txt_pragh_header .txt_big > span {
+    font-weight: 500;
+                            }
+
+                        .vision_missionPage .vision_missionUl li .pragh .pragh_header .txt_pragh_header .txt_small {
+    position: absolute;
+                        
+    color: #FFFFFF;
+    top: 14px;
+    font-size: 11.5pt;
+    left: 24px;
+}
+
+                            .vision_missionPage .vision_missionUl li .pragh .pragh_header .txt_pragh_header .txt_small > span {
+                            }
+
+                .vision_missionPage .vision_missionUl li .pragh .pragh_content {
+    border: solid #ACB0AF 1px;  -webkit-border-radius: 15px 15px 15px 15px;  -moz-border-radius: 15px 15px 15px 15px;  border-radius: 15px 15px 15px 15px;  z-index: 1;    top: -25px;  
+    padding: 10px;
+    background-color: #FFFFFF;
+    position: relative;      overflow: hidden;
+                }
+
+                    .vision_missionPage .vision_missionUl li .pragh .pragh_content .txt_pragh_content {
+                        text-align: justify;
+                        width: 290px;
+                    
+                        height: 155px;
+}
