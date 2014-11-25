@@ -63,6 +63,7 @@
     font-style: italic;
 }
 
+
 .verticalAlign {
     position: relative;
     top: 50%;
@@ -272,18 +273,30 @@ header {
         -moz-border-radius: 15px 15px 15px 15px;
         border-radius: 15px 15px 15px 15px;
         z-index: 1;
-        height: 295px;
+        height: 286px;
         top: -25px;
         position: relative;
         width: 976px;
         background-color: #FFFFFF;
         overflow: hidden;
     }
-
-        header .banner > img {
+    
+        header .banner > #img4 {
             position: absolute;
-            left: 625px;
-            bottom: -28px;
+            left: 628px;
+            bottom: -33px;
+        }
+
+        header .banner > #img3 {
+            position: absolute;
+            left: 660px;
+            bottom: -11px;
+        }
+
+        header .banner > #img_logo_white {
+            position: absolute;
+            left: 729px;
+            bottom: 113px;
         }
 
         header .banner > div {
@@ -294,9 +307,9 @@ header {
 
             header .banner > div .txt_big {
                 font-family: karma-font;
-                font-weight: lighter;
+                font-weight: 500;
                 color: #EBEBEB;
-                font-size: 29pt;
+                font-size: 25pt;
                 position: absolute;
                 top: 66px;
                 left: 599px;
@@ -309,11 +322,11 @@ header {
 
             header .banner > div .txt_small {
                 font-family: karma-font;
-                font-weight: lighter;
-                font-size: 11pt;
+                font-weight: 500;
+                font-size: 14pt;
                 position: absolute;
-                top: 86px;
-                left: 620px;
+                top: 80px;
+                left: 610px;
             }
 
                 header .banner > div .txt_small > span {
@@ -391,25 +404,11 @@ footer {
     text-align: justify;
     color: #8E8E8E;
 }
-    /*<div class="upperContent">
-                <div class="header">
-                    <div class="txt_header">
-                        <div class="txt_big">
-                            Our <span>Company</span>
-                        </div>
-                        <div class="txt_small">
-                            Our <span>Company</span>
-                        </div>
-                    </div>
-                    <div class="line_header">
-                    </div>
-                </div>
-                <div class="txt_UpperContent">*/
+
     .vision_missionPage .upperContent {
         font-size: 14pt;
-    
         margin-top: 35px;
-}
+    }
 
         .vision_missionPage .upperContent .header {
             height: 50px;
@@ -462,8 +461,7 @@ footer {
 
     .vision_missionPage .vision_missionUl {
         margin: 40px 0px 0px 0px;
-    
-}
+    }
 
         .vision_missionPage .vision_missionUl li {
             display: inline-block;
@@ -480,56 +478,110 @@ footer {
             }
 
                 .vision_missionPage .vision_missionUl li .pragh .pragh_header {
-    position: relative;
-                background-color: #90B63D;  height: 56px;  
-    width: 220px;    
-    -webkit-border-radius: 6px 50px 0px 0px;  
-    -moz-border-radius: 6px 50px 0px 0px;  
-    border-radius: 6px 50px 0px 0px;
-    top: 0px;
-}
+                    position: relative;
+                    background-color: #90B63D;
+                    height: 56px;
+                    width: 220px;
+                    -webkit-border-radius: 6px 50px 0px 0px;
+                    -moz-border-radius: 6px 50px 0px 0px;
+                    border-radius: 6px 50px 0px 0px;
+                    top: 0px;
+                }
 
                     .vision_missionPage .vision_missionUl li .pragh .pragh_header .txt_pragh_header {
-    height: 32px;
-                    
-    position: relative;
-}
+                        height: 32px;
+                        position: relative;
+                    }
 
                         .vision_missionPage .vision_missionUl li .pragh .pragh_header .txt_pragh_header .txt_big {
-    position: absolute;
-                        
-    color: rgba(255, 255, 255, 0.26);
-    font-size: 20pt;
-    top: 5px;
-    left: 5px;
-}
+                            position: absolute;
+                            color: rgba(255, 255, 255, 0.26);
+                            font-size: 20pt;
+                            top: 5px;
+                            left: 5px;
+                        }
 
                             .vision_missionPage .vision_missionUl li .pragh .pragh_header .txt_pragh_header .txt_big > span {
-    font-weight: 500;
+                                font-weight: 500;
                             }
 
                         .vision_missionPage .vision_missionUl li .pragh .pragh_header .txt_pragh_header .txt_small {
-    position: absolute;
-                        
-    color: #FFFFFF;
-    top: 14px;
-    font-size: 11.5pt;
-    left: 24px;
-}
+                            position: absolute;
+                            color: #FFFFFF;
+                            top: 14px;
+                            font-size: 11.5pt;
+                            left: 24px;
+                        }
 
                             .vision_missionPage .vision_missionUl li .pragh .pragh_header .txt_pragh_header .txt_small > span {
                             }
 
                 .vision_missionPage .vision_missionUl li .pragh .pragh_content {
-    border: solid #ACB0AF 1px;  -webkit-border-radius: 15px 15px 15px 15px;  -moz-border-radius: 15px 15px 15px 15px;  border-radius: 15px 15px 15px 15px;  z-index: 1;    top: -25px;  
-    padding: 10px;
-    background-color: #FFFFFF;
-    position: relative;      overflow: hidden;
+                    border: solid #ACB0AF 1px;
+                    -webkit-border-radius: 15px 15px 15px 15px;
+                    -moz-border-radius: 15px 15px 15px 15px;
+                    border-radius: 15px 15px 15px 15px;
+                    z-index: 1;
+                    top: -25px;
+                    padding: 10px;
+                    background-color: #FFFFFF;
+                    position: relative;
+                    overflow: hidden;
                 }
 
                     .vision_missionPage .vision_missionUl li .pragh .pragh_content .txt_pragh_content {
                         text-align: justify;
                         width: 290px;
-                    
                         height: 155px;
+                    }
+
+.home_Page {
+    text-align: justify;
+    color: #8E8E8E;
 }
+
+    .home_Page .upperContent {
+        font-size: 14pt;
+        margin-top: 35px;
+    }
+
+        .home_Page .upperContent .header {
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+            .home_Page .upperContent .header .txt_header {
+                position: relative;
+            }
+
+                .home_Page .upperContent .header .txt_header .txt_big {
+                    font-size: 25pt;
+                    position: absolute;
+                    font-weight: 500;
+                    color: #EBEBEB;
+                    top: 1px;
+                }
+
+                .home_Page .upperContent .header .txt_header .txt_small {
+                    font-size: 14pt;
+                    font-weight: 500;
+                    color: #797979;
+                    position: absolute;
+                    top: 17px;
+                    left: 10px;
+                }
+
+            .home_Page .upperContent .header .line_header {
+                background-color: #888888;
+                height: 2px;
+                float: right;
+                width: 770px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                position: relative;
+                top: 29px;
+            }
+
+        .home_Page .upperContent .txt_UpperContent {
+        }
