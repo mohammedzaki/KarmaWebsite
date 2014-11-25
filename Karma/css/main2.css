@@ -1,65 +1,65 @@
 @font-face {
     font-family: karma-font;
     src: url(../fonts/woff/neotech_light.woff);
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 @font-face {
     font-family: karma-font;
     src: url(../fonts/woff/neotech_light_italic.woff);
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
     font-family: karma-font;
     src: url(../fonts/woff/neotech.woff);
-    font-weight: normal;
+    font-weight: 200;
 }
 
 @font-face {
     font-family: karma-font;
     src: url(../fonts/woff/neotech_italic.woff);
-    font-weight: normal;
+    font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: karma-font;
     src: url(../fonts/woff/neotech_medium.woff);
-    font-weight: 500;
+    font-weight: 300;
 }
 
 @font-face {
     font-family: karma-font;
     src: url(../fonts/woff/neotech_medium_italic.woff);
-    font-weight: 500;
+    font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: karma-font;
     src: url(../fonts/woff/neotech_bold.woff);
-    font-weight: bold;
+    font-weight: 400;
 }
 
 @font-face {
     font-family: karma-font;
     src: url(../fonts/woff/neotech_bold_italic.woff);
-    font-weight: bold;
+    font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: karma-font;
     src: url(../fonts/woff/neotech_black.woff);
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 @font-face {
     font-family: karma-font;
     src: url(../fonts/woff/neotech_black_italic.woff);
-    font-weight: bolder;
+    font-weight: 500;
     font-style: italic;
 }
 
@@ -216,7 +216,7 @@ header {
             }
 
                 header .companyLogo .right .txt_big > span {
-                    font-weight: 500;
+                    font-weight: 300;
                     font-size: 40px;
                 }
 
@@ -320,7 +320,7 @@ header {
                 }
 
                 header .banner > div .txt_big > span {
-                    font-weight: 500;
+                    font-weight: 300;
                     font-size: 40px;
                 }
 
@@ -444,7 +444,7 @@ footer {
 
                     .products1Page .upperContent .header .txt_header .txt_big > span {
                         font-size: 30pt;
-                        font-weight: 500;
+                        font-weight: 300;
                     }
 
                 .products1Page .upperContent .header .txt_header .txt_small {
@@ -457,7 +457,7 @@ footer {
                 }
 
                     .products1Page .upperContent .header .txt_header .txt_small > span {
-                        font-weight: 500;
+                        font-weight: 300;
                     }
 
             .products1Page .upperContent .header .line_header {
