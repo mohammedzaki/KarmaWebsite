@@ -247,6 +247,8 @@ header {
             height: 56px;
             width: 466px;
             float: right;
+            position: relative;
+            left: 3px;
             -webkit-border-radius: 160px 36px 0px 0px;
             -moz-border-radius: 160px 36px 0px 0px;
             border-radius: 160px 36px 0px 0px;
@@ -446,7 +448,7 @@ header {
                 }
 
 footer {
-    height: 57px;
+    height: 43px;
     -webkit-border-radius: 9px 9px 0px 0px;
     -moz-border-radius: 9px 9px 0px 0px;
     border-radius: 9px 9px 0px 0px;
@@ -470,7 +472,6 @@ footer {
     overflow: hidden;
     z-index: 1;
     color: #6b6c6f;
-    min-height: 560px;
 }
 
 
@@ -610,6 +611,7 @@ footer {
 
 .home_Page {
     text-align: justify;
+    height: 220px;
 }
 
     .home_Page .upperContent {
@@ -670,6 +672,7 @@ footer {
 
 .contactUsPage {
     text-align: justify;
+    height: 510px;
 }
 
     .contactUsPage .upperContent {
@@ -928,7 +931,7 @@ footer {
 
                 .products1Page .products1Ul li .praghL .pragh {
                     width: 314px;
-                    height: 220px;
+                    height: 230px;
                     float: right;
                     margin-right: 4px;
                 }
@@ -944,9 +947,9 @@ footer {
                     position: relative;
                     height: 56px;
                     width: 177px;
-                    -webkit-border-radius: 20px 20px 0px 0px;
-                    -moz-border-radius: 20px 20px 0px 0px;
-                    border-radius: 20px 20px 0px 0px;
+                    -webkit-border-radius: 10px 10px 0px 0px;
+                    -moz-border-radius: 10px 10px 0px 0px;
+                    border-radius: 10px 10px 0px 0px;
                     top: -3px;
                 }
 
@@ -996,9 +999,9 @@ footer {
                 }
 
                     .products1Page .products1Ul li .praghL .pragh_content .txt_pragh_content {
-                        text-align: justify;
+                        text-align: left;
                         width: 250px;
-                        height: 150px;
+                        height: 165px;
                     }
 
 
@@ -1009,7 +1012,7 @@ footer {
                     float: left;
                     margin-left: 4px;
                     width: 314px;
-                    height: 220px;
+                    height: 230px;
                 }
 
                 .products1Page .products1Ul li .praghR .praghImg {
@@ -1023,9 +1026,9 @@ footer {
                     position: relative;
                     height: 56px;
                     width: 177px;
-                    -webkit-border-radius: 20px 20px 0px 0px;
-                    -moz-border-radius: 20px 20px 0px 0px;
-                    border-radius: 20px 20px 0px 0px;
+                    -webkit-border-radius: 10px 10px 0px 0px;
+                    -moz-border-radius: 10px 10px 0px 0px;
+                    border-radius: 10px 10px 0px 0px;
                     top: -3px;
                     left: 136px;
                 }
@@ -1076,9 +1079,9 @@ footer {
                 }
 
                     .products1Page .products1Ul li .praghR .pragh_content .txt_pragh_content {
-                        text-align: justify;
+                        text-align: left;
                         width: 250px;
-                        height: 150px;
+                        height: 165px;
                     }
 
 /*colors*/
