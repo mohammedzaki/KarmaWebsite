@@ -847,7 +847,7 @@ footer {
 
 .products1Page {
     text-align: justify;
-    height: 600px;
+    height: 635px;
 }
 
     .products1Page .upperContent {
@@ -916,7 +916,9 @@ footer {
 
     .products1Page .products1Ul {
         margin: 5px 0px 0px 0px;
-    }
+    
+        line-height: 21px;
+}
 
         .products1Page .products1Ul li {
             display: inline-block;
@@ -935,7 +937,7 @@ footer {
 
                 .products1Page .products1Ul li .praghL .pragh {
                     width: 314px;
-                    height: 230px;
+                    height: 255px;
                     float: right;
                     margin-right: 4px;
                 }
@@ -1009,7 +1011,7 @@ footer {
                     .products1Page .products1Ul li .praghL .pragh_content .txt_pragh_content {
                         text-align: left;
                         width: 250px;
-                        height: 165px;
+                        height: 185px;
                     
                         font-size: 18px;
 }
@@ -1022,7 +1024,7 @@ footer {
                     float: left;
                     margin-left: 4px;
                     width: 314px;
-                    height: 230px;
+                    height: 255px;
                 }
 
                 .products1Page .products1Ul li .praghR .praghImg {
@@ -1095,7 +1097,7 @@ footer {
                     .products1Page .products1Ul li .praghR .pragh_content .txt_pragh_content {
                         text-align: left;
                         width: 250px;
-                        height: 165px;
+                        height: 185px;
                     
                         font-size: 18px;
 }
@@ -1229,15 +1231,18 @@ footer {
             }
 
                 .products2Page .products2Ul li .praghL .pragh {
-                    width: 314px;
-                    height: 220px;
+                    width: 223px;
+                    height: 145px;
                     float: right;
                     margin-right: 4px;
                 }
 
                 .products2Page .products2Ul li .praghL .praghImg {
                     float: left;
-                }
+                
+                    position: relative;
+                    left: 85px;
+}
 
                     .products2Page .products2Ul li .praghL .praghImg > img {
                     }
@@ -1293,14 +1298,14 @@ footer {
                     padding: 10px;
                     background-color: #FFFFFF;
                     position: relative;
-                    width: 291px;
+                    width: 200px;
                     overflow: hidden;
                 }
 
                     .products2Page .products2Ul li .praghL .pragh_content .txt_pragh_content {
                         text-align: justify;
-                        width: 250px;
-                        height: 150px;
+                        width: 180px;
+                        height: 80px;
                     }
 
 
@@ -1311,12 +1316,15 @@ footer {
                     float: left;
                     margin-left: 4px;
                     width: 314px;
-                    height: 220px;
+                    height: 145px;
                 }
 
                 .products2Page .products2Ul li .praghR .praghImg {
                     float: right;
-                }
+                
+                    position: relative;  
+                    right: 85px;
+}
 
                     .products2Page .products2Ul li .praghR .praghImg > img {
                     }
@@ -1329,7 +1337,7 @@ footer {
                     -moz-border-radius: 10px 10px 0px 0px;
                     border-radius: 10px 10px 0px 0px;
                     top: -3px;
-                    left: 136px;
+                    left: 45px;
                 }
 
                     .products2Page .products2Ul li .praghR .pragh_header .txt_pragh_header {
@@ -1373,14 +1381,14 @@ footer {
                     padding: 10px;
                     background-color: #FFFFFF;
                     position: relative;
-                    width: 291px;
+                    width: 200px;
                     overflow: hidden;
                 }
 
                     .products2Page .products2Ul li .praghR .pragh_content .txt_pragh_content {
                         text-align: justify;
-                        width: 250px;
-                        height: 150px;
+                        width: 180px;
+                        height: 75px;
                     }
 
 .redColor {
