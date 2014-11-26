@@ -245,7 +245,7 @@ header {
         header .header > div {
             /* background-color: #90B63D; */
             height: 56px;
-            width: 466px;
+            width: 341px;
             float: right;
             position: relative;
             left: 2px;
@@ -273,13 +273,14 @@ header {
                         text-decoration: underline;
                     }
 
+
                 header .header > div > nav .subProducts {
                     z-index: 2;
                     position: relative;
-                    height: 58px;
-                    width: 140px;
+                    height: 60px;
+                    width: 158px;
                     top: 8px;
-                    left: 242px;
+                    left: 111px;
                     -webkit-border-radius: 4px;
                     -moz-border-radius: 4px;
                     border-radius: 4px;
@@ -288,11 +289,9 @@ header {
 }
 
                     header .header > div > nav .subProducts > nav {
-                        width: 128px;
+                        width: 147px;
                         line-height: 25px;
-                        top: 5px;
-                        left: 7px;
-                        position: relative;
+                        margin: auto;
                     }
 
                         header .header > div > nav .subProducts > nav a {
@@ -363,18 +362,19 @@ header {
 
         header .banner > div {
             position: relative;
-            right: 480px;
-            top: 61px;
+            right: 440px;
+            top: 63px;
         }
 
             header .banner > div .txt_big {
                 font-family: karma-font;
                 font-weight: 100;
                 color: #EBEBEB;
-                font-size: 34px;
+                font-size: 31px;
                 position: absolute;
+                width: 622px;
                 top: 66px;
-                left: 599px;
+                left: 529px;
             }
 
                 header .banner > div .txt_big > div {
@@ -383,7 +383,7 @@ header {
 
                 header .banner > div .txt_big > span {
                     font-weight: 400;
-                    font-size: 40px;
+                    font-size: 30px;
                 }
 
             header .banner > div .txt_small {
@@ -392,8 +392,8 @@ header {
                 font-size: 19px;
                 position: absolute;
                 color: #919191;
-                top: 82px;
-                left: 610px;
+                top: 76px;
+                left: 545px;
             }
 
                 header .banner > div .txt_small > div {
@@ -484,7 +484,7 @@ header {
                 }
 
 footer {
-    height: 43px;
+    height: 33px;
     -webkit-border-radius: 9px 9px 0px 0px;
     -moz-border-radius: 9px 9px 0px 0px;
     border-radius: 9px 9px 0px 0px;
@@ -498,7 +498,7 @@ footer {
 
         footer > div .left > nav a {
             color: #FFFFFF;
-            margin: 0px 10px 0px 10px;
+            margin: 0px 3px 0px 3px;
         }
 
         footer > div .right {
@@ -640,7 +640,7 @@ footer {
                 }
 
                     .vision_missionPage .vision_missionUl li .pragh .pragh_content .txt_pragh_content {
-                        text-align: justify;
+                        text-align: left;
                         width: 290px;
                         height: 155px;
                     }
@@ -1061,7 +1061,7 @@ footer {
 
                 .products1Page .products1Ul li .praghR .praghImg {
                     float: right;
-                    top: 20px;
+                    top: 29px;
                     right: 35px;
                     position: relative;
                 }
@@ -1158,7 +1158,7 @@ footer {
 }
 
 .pickles06_color {
-    background-color: #E2BD00;
+    background-color: #FFD400;
 }
 
 .pickles07_color {
@@ -1174,7 +1174,7 @@ footer {
 }
 
 .pickles10_color {
-    background-color: #E3BD00;
+    background-color: #FFD400;
 }
 
 .pickles11_color {
@@ -1349,7 +1349,9 @@ footer {
                         text-align: justify;
                         width: 180px;
                         height: 80px;
-                    }
+                    
+                        position: relative;  top: 10px;  left: 15px;
+}
 
 
             .products2Page .products2Ul li .praghR {
@@ -1431,7 +1433,11 @@ footer {
                         text-align: justify;
                         width: 180px;
                         height: 80px;
-                    }
+                    
+                        position: relative;
+                        top: 10px;
+                        left: 15px;
+}
 
 .redColor {
     background-color: #ED1B24;
